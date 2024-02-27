@@ -44,7 +44,7 @@
 ### PROGRAM
 # DEVELOPED BY: AMURTHA VAAHINI.KN
 # REGISTER NO: 212222240008
-class VacuumCleanerAgent:
+```class VacuumCleanerAgent:
     def __init__(self):
         # Initialize the agent's state (location and dirt status)
         self.location = "A"  # Initial location (can be "A" or "B")
@@ -98,6 +98,7 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
+```
 
 # OUTPUT
 ![Screenshot 2024-02-26 024827](https://github.com/amurthavaahininagarajan/19AI405ExpNo1/assets/118679102/297fd4f0-b1cd-464d-8878-0e7f83bb95ae)
